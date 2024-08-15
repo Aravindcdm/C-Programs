@@ -1,7 +1,7 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 int prime(int n){
-    if(n==0 || n==1)
+    if(n<2)
     return 0;
     else
     {
